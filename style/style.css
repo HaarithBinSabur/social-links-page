@@ -1,0 +1,84 @@
+body{
+    height: 100vh;
+    font-family: 'Inter', sans-serif;
+    background-color:hsl(0, 0%, 8%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+
+#main{
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    width: 23vw;
+    height: 77vh;
+    padding: 1rem;
+}
+
+#profile-avatar{
+    border-radius:50px;
+    width: 90px;
+    height: 90px;
+    margin-top: 10px;
+}
+
+#profile-name{
+    font-size: 20px;
+    font-weight:500;
+    font-size: 25px;
+    margin-top:25px;
+}
+
+#profile-info{
+    text-align: center;
+}
+
+#profile-location{
+    color: hsl(75, 94%, 57%);
+    font-size: 14px;
+    font-weight: 600;
+    margin-top:20px;
+}
+
+#profile-para{
+    font-weight:200 ;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom:0 ;
+}
+
+#profile-links{
+    display: flex;
+    flex-direction: colomn;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.links{
+    background-color: hsl(0, 0%, 20%);
+    border-radius:10px ;
+    border: none;
+    width: 88%;
+    height: 6vh;
+    color:white;
+    transition: background-color 0.5s, color 0.5s;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.links:hover{
+    background-color: hsl(75, 94%, 57%);
+    color:black;
+
+}
